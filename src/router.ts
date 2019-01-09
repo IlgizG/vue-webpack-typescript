@@ -35,11 +35,13 @@ export const createRoutes: () => RouteConfig[] = () => [
   {
     path: '/about',
     component: aboutComponent
-  },
-  {
-    path: '/list',
-    component: listComponent
   }
+  /**
+   * {
+   *   path: '/list',
+   *   component: listComponent
+   * }
+   */
 ]
 
 export const createRouter = () => new VueRouter({ mode: 'history', routes: createRoutes() })

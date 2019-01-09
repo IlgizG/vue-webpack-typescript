@@ -16,7 +16,7 @@ import './home.scss'
 export class HomeComponent extends Vue {
 
   package: string = 'vue-webpack-typescript'
-  repo: string = 'https://github.com/ducksoupdev/vue-webpack-typescript'
+  repo: string = 'https://github.com/IlgizG/vue-webpack-typescript.git'
   mode: string = process.env.ENV
 
 }

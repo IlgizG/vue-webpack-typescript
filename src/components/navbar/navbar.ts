@@ -25,7 +25,9 @@ export class NavbarComponent extends Vue {
   links: Link[] = [
     new Link('Home', '/'),
     new Link('About', '/about'),
-    new Link('List', '/list')
+    /**
+     * new Link('List', '/list')
+     */
   ]
 
   protected logger: Logger
